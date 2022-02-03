@@ -1,0 +1,115 @@
+/*---------------
+     font 
+--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+/*---------------------------
+ common styles or utilities
+--------------------------------*/
+body{
+    font-family: 'Alegreya', serif;
+    margin: 0;
+}
+ /*-----------------
+         header
+  ------------------*/
+header{
+    background-image: linear-gradient(rgb(127, 125, 250), rgb(252, 245, 245));
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.leaves{
+    font-size: 50px;
+    padding-right: 20px;
+    color: ghostwhite;
+}
+.pink-color{
+    color: rgb(204, 0, 255);
+}
+ /* -----------
+    nav 
+---------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(212, 199, 255);
+    height: 60px;
+    padding: 0 200px;
+}
+.menu-title{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    color: black;
+    
+}
+nav div img{
+    width: 30px;
+    border-radius: 50px;
+}
+/*---------------------------
+        main content 
+ --------------------------*/
+ section{
+     display: flex;
+     height: 900px;
+ }
+.content{
+    border:1px solid deepskyblue;
+    width: 200px;
+
+}
+#main-content{
+    flex-grow: 1;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+.images{
+    display: flex;   
+}
+.image img{
+    width: 200px;
+    padding: 40px;
+    border-radius: 70px;
+}
+.image-info{
+    padding: 30px 0px;
+}
+.author{
+    color: #ED6B4F;
+}
+.rating{
+    display: flex;
+    color: #A2A2A2;
+    font-size: 10px;  
+}
+.star{
+    color:  #FFC014; 
+    padding-right: 30px;  
+}
+#grey{
+    color:#A2A2A2;
+}
+.vedio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+   
+}
+
+
